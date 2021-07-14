@@ -1,5 +1,5 @@
 # TouchableView
-Make any UIView tappable + Awesome press effect!
+Make any UIView element tappable + Awesome press effect!
 
 ![hippo](https://github.com/HappyIosDeveloper/TouchableView/blob/main/preview.gif)
 
