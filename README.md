@@ -9,6 +9,8 @@ Just copy & paste the TouchableView.swift class to your project & extend your vi
 This is enogh to make your view show the tapp effect.
 
 to define an action to that view, simply do it like below:
+        
+        @IBOutlet weak var yearView: LTouchableView!
 
         yearView.touchUpInside = {
             // Do your action here
