@@ -1,7 +1,7 @@
 # TouchableView
 Make any UIView tappable + Awesome press effect!
 
-![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
+![hippo](https://github.com/HappyIosDeveloper/TouchableView/blob/main/preview.gif)
 
 How to use:
 Just copy & paste the TouchableView.swift class to your project & extend your view class from TouchableView.
