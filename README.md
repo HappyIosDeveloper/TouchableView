@@ -10,7 +10,7 @@ This is enogh to make your view show the tapp effect.
 
 to define an action to that view, simply do it like below:
         
-        @IBOutlet weak var yourView: LTouchableView!
+        @IBOutlet weak var yourView: TouchableView!
 
         yourView.touchUpInside = {
             // Do your action here
