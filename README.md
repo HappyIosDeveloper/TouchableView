@@ -16,10 +16,10 @@ to define an action to that view, simply do it like below:
 
 ![hippo](https://github.com/HappyIosDeveloper/TouchableView/blob/main/screenhot2.png)
 
-        @IBOutlet weak var yourView: TouchableView!
+    @IBOutlet weak var yourView: TouchableView!
 
-        yourView.touchUpInside = {
-            // Do your action here
-        }
+    yourView.touchUpInside = {
+         // Do your action here
+    }
 
 Cheers!
