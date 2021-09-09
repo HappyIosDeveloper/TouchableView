@@ -69,7 +69,7 @@ class TouchableView: UIView, UIGestureRecognizerDelegate {
     }
     
     func shrink() {
-        lightVibrate()
+        vibrate(type: .soft)
         UIView.animate(withDuration: 0.3) {
             self.transform = CGAffineTransform(scaleX: self.horizontallyFlipped ? -0.95 : 0.95, y: 0.95)
             self.layoutIfNeeded()
@@ -82,4 +82,10 @@ class TouchableView: UIView, UIGestureRecognizerDelegate {
             self.layoutIfNeeded()
         }
     }
+}
+
+func vibrate(type: UIImpactFeedbackGenerator.FeedbackStyle) {
+    let generator = UIImpactFeedbackGenerator(style: type)
+    generator.prepare()
+    generator.impactOccurred()
 }
